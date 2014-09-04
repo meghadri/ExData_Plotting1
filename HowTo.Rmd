@@ -1,0 +1,22 @@
+---
+output: html_document
+---
+
+# Exploratory Data Analysis Project 1 - How To
+## Coursera - Johns Hopkins; Peng, Leek, Caffo
+### Submitter: MGH
+### 3 September 2014
+
+This submission for [Project #1](https://class.coursera.org/exdata-006/human_grading/view/courses/972591/assessments/3/submissions) of the Exploratory Data Analysis course provides two ways of generating the required plots:
+
+- A stand-alone version for each of the plot function which will generate the corresponding plot independently and invokes the low-level function.
+- A 'test' script named generateAll.R which executes the low-level plot functions after downloading the file once.
+
+The 'low-level' version of the plot function which requires the dataset as an input parameter to generate the plot.
+
+To avoid downloading the data file multiple times, it is recommended that generateAll.R being run to generate all the plots. 
+
+The stand-alone versions will each download the remote zip file, extract the zip, and construct the dataset which is then passed to the 
+'low-level' functions. 
+
+
